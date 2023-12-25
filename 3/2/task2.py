@@ -26,7 +26,7 @@ def handle_zip(zip_file_path):
                     product['Название'] = item.find('span').get_text(strip=True)
                     product['Цена'] = item.find('price').get_text(strip=True)
 
-                    # Найдем количество бонусов, если оно есть
+                    # Найдем количество бонусов, если они есть
                     bonus_tag = item.find('strong', string=re.compile(r'начислим \d+ бонусов', re.IGNORECASE))
                     if bonus_tag:
                         bonus_text = bonus_tag.get_text(strip=True)
