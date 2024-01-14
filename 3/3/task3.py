@@ -28,17 +28,17 @@ def handle_zip(zip_file_path):
 objects_data = handle_zip('zip_var_52.zip')
 
 # Записываем все результаты в один JSON-файл
-with open('all_results.json', 'w') as all_results_file:
+with open('all_results.json', 'w', encoding='utf-8') as all_results_file:
     json.dump(objects_data, all_results_file, indent=2, ensure_ascii=False)
 
 # Отсортировать значения по одному из доступных полей (radius)
 sorted_by_radius = sorted(objects_data, key=lambda x: int(x.get('radius', 0) or 0), reverse=True)
-with open('sorted_by_radius.json', 'w') as sorted_radius_file:
+with open('sorted_by_radius.json', 'w', encoding='utf-8') as sorted_radius_file:
     json.dump(sorted_by_radius, sorted_radius_file, indent=2, ensure_ascii=False)
 
 # Выполнить фильтрацию по другому полю (constellation)
 filtered_by_constellation = [obj for obj in objects_data if obj.get('constellation') == 'Рыбы']
-with open('filtered_by_constellation.json', 'w') as filtered_constellation_file:
+with open('filtered_by_constellation.json', 'w', encoding='utf-8') as filtered_constellation_file:
     json.dump(filtered_by_constellation, filtered_constellation_file, indent=2, ensure_ascii=False)
 
 # Для числового поля 'radius' вычисляем статистические характеристики
