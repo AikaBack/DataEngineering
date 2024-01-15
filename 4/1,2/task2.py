@@ -40,7 +40,7 @@ def execute_queries_with_relations(db_path):
 
     # Пример запроса: подсчет средней оценки (рейтинга) здания на основе отзывов
     cursor.execute("SELECT AVG(rating) FROM building_feedback WHERE building_name = 'Бункер 37'")
-    with open('task2_average_rating_specific_building.json', 'w') as file:
+    with open('task2_average_rating_specific_building.json', 'w', encoding='utf-8') as file:
         json.dump({'Средняя оценка дома Бункер 37': cursor.fetchone()[0]}, file, ensure_ascii=False)
 
     # Пример запроса: выборка зданий с комментарием о безопасности выше определенного уровня
