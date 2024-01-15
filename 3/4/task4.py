@@ -30,19 +30,19 @@ xml_file_path = 'zip_var_52.zip'
 objects_data = handle_zip(xml_file_path)
 
 # Записываем все данные в один JSON-файл
-with open('all_data.json', 'w') as all_data_file:
+with open('all_data.json', 'w', encoding='utf-8') as all_data_file:
     json.dump(objects_data, all_data_file, indent=2, ensure_ascii=False)
 
 # Остальные операции
 
 # Отсортировать значения по одному из доступных полей (например, 'price')
 sorted_by_price = sorted(objects_data, key=lambda x: int(x.get('price', 0) or 0))
-with open('sorted_by_price.json', 'w') as sorted_price_file:
+with open('sorted_by_price.json', 'w', encoding='utf-8') as sorted_price_file:
     json.dump(sorted_by_price, sorted_price_file, indent=2, ensure_ascii=False)
 
 # Выполнить фильтрацию по другому полю (например, 'color')
 filtered_by_color = [obj for obj in objects_data if obj.get('color') == 'Желтый']
-with open('filtered_by_color.json', 'w') as filtered_color_file:
+with open('filtered_by_color.json', 'w', encoding='utf-8') as filtered_color_file:
     json.dump(filtered_by_color, filtered_color_file, indent=2, ensure_ascii=False)
 
 # Для числового поля 'price' вычисляем статистические характеристики
