@@ -10,8 +10,10 @@ def read_msgpack_to_sqlite(file_path, db_path):
 
     with open(file_path, 'rb') as file:
         data = msgpack.unpack(file)
-        for row in data:
-            values = (
+
+        # Формируем список кортежей для вставки
+        values_list = [
+            (
                 row['name'],
                 row['street'],
                 row['city'],
@@ -22,10 +24,14 @@ def read_msgpack_to_sqlite(file_path, db_path):
                 row['prob_price'],
                 row['views']
             )
-            cursor.execute(
-                "INSERT INTO building (name, street, city, zipcode, floors, year, parking, prob_price, views) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
-                values
-            )
+            for row in data
+        ]
+
+        # Одним запросом вставляем все данные
+        cursor.executemany(
+            "INSERT INTO building (name, street, city, zipcode, floors, year, parking, prob_price, views) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            values_list
+        )
 
     conn.commit()
     conn.close()
@@ -41,7 +47,11 @@ def execute_queries(db_path):
     # Вывод первых (VAR+10) отсортированных по полю views строк из таблицы в файл формата json
     cursor.execute("SELECT * FROM building ORDER BY views LIMIT ?", (VAR + 10,))
     with open('task1_sorted_views_var_52.json', 'w') as file:
-        json.dump(cursor.fetchall(), file, ensure_ascii=False)
+        # Используем метод fetchall() для получения результатов в виде словарей
+        rows = cursor.fetchall()
+        # Конвертируем в список словарей перед записью в файл JSON
+        json.dump([dict(row) for row in rows], file, ensure_ascii=False)
+
 
     # Вывод (сумма, минимум, максимум, среднее) по полю prob_price с именами статистики
     cursor.execute("SELECT SUM(prob_price), MIN(prob_price), MAX(prob_price), AVG(prob_price) FROM building")
@@ -61,7 +71,11 @@ def execute_queries(db_path):
     # Вывод первых (VAR+10) отфильтрованных по условию этажность >=5, сортированных по убывающей цене
     cursor.execute("SELECT * FROM building WHERE floors >= 5 ORDER BY prob_price DESC LIMIT ?", (VAR + 10,))
     with open('task1_filtered_floors5_var_52.json', 'w') as file:
-        json.dump(cursor.fetchall(), file, ensure_ascii=False)
+        # Используем метод fetchall() для получения результатов в виде словарей
+        rows = cursor.fetchall()
+        # Конвертируем в список словарей перед записью в файл JSON
+        json.dump([dict(row) for row in rows], file, ensure_ascii=False)
+
 
     conn.close()
 
@@ -70,5 +84,5 @@ def execute_queries(db_path):
 file_path_msgpack = 'task_1_var_52_item.msgpack'
 db_path = 'first'
 
-
+read_msgpack_to_sqlite(file_path_msgpack, db_path)
 execute_queries(db_path)
