@@ -8,19 +8,22 @@ def add_data(file_path, db_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
-        for item in data:
-            name = item.get('name')
-            price = item.get('price', 0)
-            quantity = item.get('quantity', 0)
-            category = item.get('category', 'unknown')
-            from_city = item.get('fromCity', 'Неизвестно')
-            is_available = item.get('isAvailable', False)
-            views = item.get('views', 0)
+        # Создаем список значений для вставки
+        values_list = [(item.get('name'),
+                        item.get('price', 0),
+                        item.get('quantity', 0),
+                        item.get('category', 'unknown'),
+                        item.get('fromCity', 'Неизвестно'),
+                        item.get('isAvailable', False),
+                        item.get('views', 0),
+                        0)  # 0 для updates
+                       for item in data]
 
-            cursor.execute('''
-                INSERT INTO items_info (name, price, quantity, category, fromCity, isAvailable, views, updates)
-                VALUES (?, ?, ?, ?, ?, ?, ?, 0)
-            ''', (name, price, quantity, category, from_city, is_available, views))
+        # Один запрос на вставку всех данных
+        cursor.executemany('''
+            INSERT INTO items_info (name, price, quantity, category, fromCity, isAvailable, views, updates)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        ''', values_list)
 
     conn.commit()
     conn.close()
