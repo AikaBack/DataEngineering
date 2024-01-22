@@ -10,8 +10,10 @@ def read_feedback_to_sqlite(file_path, db_path):
 
     with open(file_path, 'rb') as file:
         data = msgpack.unpack(file)
-        for row in data:
-            values = (
+
+        # Формируем список кортежей для вставки
+        values_list = [
+            (
                 row['name'],  # Название здания, к которому относится отзыв
                 row['rating'],
                 row['convenience'],
@@ -19,10 +21,14 @@ def read_feedback_to_sqlite(file_path, db_path):
                 row['functionality'],
                 row['comment']
             )
-            cursor.execute(
-                "INSERT INTO building_feedback (building_name, rating, convenience, security, functionality, comment) VALUES (?, ?, ?, ?, ?, ?)",
-                values
-            )
+            for row in data
+        ]
+
+        # Одним запросом вставляем все данные
+        cursor.executemany(
+            "INSERT INTO building_feedback (building_name, rating, convenience, security, functionality, comment) VALUES (?, ?, ?, ?, ?, ?)",
+            values_list
+        )
 
     conn.commit()
     conn.close()
@@ -36,7 +42,10 @@ def execute_queries_with_relations(db_path):
     # Пример запроса: выборка отзывов для определенного здания по его названию
     cursor.execute("SELECT * FROM building_feedback WHERE building_name = 'Бункер 37'")
     with open('task2_feedback_specific_building.json', 'w') as file:
-        json.dump(cursor.fetchall(), file, ensure_ascii=False)
+        # Используем метод fetchall() для получения результатов в виде словарей
+        rows = cursor.fetchall()
+        # Конвертируем в список словарей перед записью в файл JSON
+        json.dump([dict(row) for row in rows], file, ensure_ascii=False)
 
     # Пример запроса: подсчет средней оценки (рейтинга) здания на основе отзывов
     cursor.execute("SELECT AVG(rating) FROM building_feedback WHERE building_name = 'Бункер 37'")
@@ -44,9 +53,13 @@ def execute_queries_with_relations(db_path):
         json.dump({'Средняя оценка дома Бункер 37': cursor.fetchone()[0]}, file, ensure_ascii=False)
 
     # Пример запроса: выборка зданий с комментарием о безопасности выше определенного уровня
-    cursor.execute("SELECT building.* FROM building JOIN building_feedback ON building.name = building_feedback.building_name WHERE building_feedback.security > 2")
+    cursor.execute(
+        "SELECT building.* FROM building JOIN building_feedback ON building.name = building_feedback.building_name WHERE building_feedback.security > 2")
     with open('task2_security2_buildings_comments.json', 'w') as file:
-        json.dump(cursor.fetchall(), file, ensure_ascii=False)
+        # Используем метод fetchall() для получения результатов в виде словарей
+        rows = cursor.fetchall()
+        # Конвертируем в список словарей перед записью в файл JSON
+        json.dump([dict(row) for row in rows], file, ensure_ascii=False)
 
     conn.close()
 
