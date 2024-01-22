@@ -8,15 +8,13 @@ import pickle
 def read_and_insert_data(file_path_csv, file_path_pkl, db_path):
     conn = sqlite3.connect(db_path)
 
-    # Загружаем данные из CSV
+    # Загружаем данные из CSV и PKL в таблицу music_info
     df_csv = pd.read_csv(file_path_csv, delimiter=';',
                          usecols=['artist', 'song', 'duration_ms', 'year', 'tempo', 'genre', 'energy'])
-    df_csv.to_sql('music_info', conn, if_exists='replace', index=False)
-
-    # Загружаем данные из PKL
     df_pkl = pd.DataFrame(pd.read_pickle(file_path_pkl),
                           columns=['artist', 'song', 'duration_ms', 'year', 'tempo', 'genre', 'energy'])
-    df_pkl.to_sql('music_info', conn, if_exists='replace', index=False)
+    df_combined = pd.concat([df_csv, df_pkl], ignore_index=True)
+    df_combined.to_sql('music_info', conn, if_exists='replace', index=False)
 
     conn.commit()
     conn.close()
@@ -31,7 +29,7 @@ def execute_queries(db_path='music.db'):
     cursor.execute("SELECT * FROM music_info ORDER BY year DESC LIMIT ?", (VAR + 10,))
     sorted_rows_year = cursor.fetchall()
     with open('task3_sorted_rows_year.json', 'w') as json_file:
-        json.dump(sorted_rows_year, json_file, indent=2)
+        json.dump([dict(row) for row in sorted_rows_year], json_file, indent=2)
 
     # Вывод (сумму, мин, макс, среднее) по продолжительности
     cursor.execute(
@@ -42,7 +40,7 @@ def execute_queries(db_path='music.db'):
 
     # Вывод частоты встречаемости для жанров
     cursor.execute("SELECT genre FROM music_info")
-    all_genres = [genre.strip() for row in cursor.fetchall() for genre in row[0].split(',')]
+    all_genres = [genre.strip() for row in cursor.fetchall() for genre in row['genre'].split(',')]
     genre_counts = {genre: all_genres.count(genre) for genre in set(all_genres)}
     with open('task3_categorical_frequency_genre.json', 'w') as json_file:
         json.dump(genre_counts, json_file, indent=2)
@@ -53,7 +51,7 @@ def execute_queries(db_path='music.db'):
         (VAR + 15,))
     filtered_sorted_rows = cursor.fetchall()
     with open('task3_filtered_sorted_rows.json', 'w') as json_file:
-        json.dump(filtered_sorted_rows, json_file, indent=2)
+        json.dump([dict(row) for row in filtered_sorted_rows], json_file, indent=2)
 
     conn.close()
 

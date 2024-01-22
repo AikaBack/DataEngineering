@@ -1,560 +1,560 @@
 [
-  [
-    "NSG",
-    "Options",
-    "240081",
-    "2020",
-    "101.993",
-    "World/Traditional, hip hop",
-    "0.621"
-  ],
-  [
-    "Will Smith",
-    "Switch",
-    "197666",
-    "2020",
-    "102.516",
-    "hip hop, pop",
-    "0.9"
-  ],
-  [
-    "Calvin Harris",
-    "Giant (with Rag'n'Bone Man)",
-    "229184",
-    "2019",
-    "122.015",
-    "hip hop, pop, Dance/Electronic",
-    "0.887"
-  ],
-  [
-    "J. Cole",
-    "MIDDLE CHILD",
-    "213593",
-    "2019",
-    "123.984",
-    "hip hop",
-    "0.364"
-  ],
-  [
-    "Lunay",
-    "Soltera - Remix",
-    "266086",
-    "2019",
-    "92.01",
-    "pop, latin",
-    "0.783"
-  ],
-  [
-    "Ariana Grande",
-    "boyfriend (with Social House)",
-    "186106",
-    "2019",
-    "190.097",
-    "pop",
-    "0.795"
-  ],
-  [
-    "Sigala",
-    "Wish You Well",
-    "205653",
-    "2019",
-    "124.975",
-    "pop, Dance/Electronic",
-    "0.895"
-  ],
-  [
-    "Dua Lipa",
-    "Don't Start Now",
-    "183290",
-    "2019",
-    "123.941",
-    "pop",
-    "0.793"
-  ],
-  [
-    "Young Thug",
-    "The London (feat. J. Cole & Travis Scott)",
-    "200106",
-    "2019",
-    "97.981",
-    "hip hop, pop",
-    "0.586"
-  ],
-  [
-    "Sam Feldt",
-    "Post Malone (feat. RANI)",
-    "174444",
-    "2019",
-    "107.356",
-    "pop, Dance/Electronic",
-    "0.642"
-  ],
-  [
-    "NLE Choppa",
-    "Shotta Flow (feat. Blueface) [Remix]",
-    "176631",
-    "2019",
-    "120.08",
-    "hip hop",
-    "0.511"
-  ],
-  [
-    "Cardi B",
-    "Please Me",
-    "200889",
-    "2019",
-    "133.992",
-    "hip hop, pop",
-    "0.57"
-  ],
-  [
-    "Post Malone",
-    "Circles",
-    "215280",
-    "2019",
-    "120.042",
-    "hip hop",
-    "0.762"
-  ],
-  [
-    "Hayden James",
-    "NUMB",
-    "217296",
-    "2019",
-    "147.932",
-    "pop, Dance/Electronic",
-    "0.558"
-  ],
-  [
-    "BTS",
-    "Boy With Luv (feat. Halsey)",
-    "229773",
-    "2019",
-    "119.991",
-    "pop",
-    "0.862"
-  ],
-  [
-    "Lil Nas X",
-    "Panini",
-    "114893",
-    "2019",
-    "153.848",
-    "hip hop, pop",
-    "0.594"
-  ],
-  [
-    "Dave",
-    "Location (feat. Burna Boy)",
-    "241293",
-    "2019",
-    "109.979",
-    "hip hop",
-    "0.496"
-  ],
-  [
-    "Jax Jones",
-    "All Day And Night",
-    "169303",
-    "2019",
-    "121.908",
-    "hip hop, pop, Dance/Electronic",
-    "0.782"
-  ],
-  [
-    "Anuel AA",
-    "Secreto",
-    "258800",
-    "2019",
-    "91.987",
-    "latin",
-    "0.803"
-  ],
-  [
-    "Shawn Mendes",
-    "Se\u00f1orita",
-    "190799",
-    "2019",
-    "116.967",
-    "pop",
-    "0.548"
-  ],
-  [
-    "Lil Nas X",
-    "Old Town Road",
-    "113000",
-    "2019",
-    "135.998",
-    "hip hop, pop",
-    "0.53"
-  ],
-  [
-    "Ed Sheeran",
-    "Antisocial (with Travis Scott)",
-    "161746",
-    "2019",
-    "151.957",
-    "pop",
-    "0.823"
-  ],
-  [
-    "Mustard",
-    "Pure Water (with Migos)",
-    "192470",
-    "2019",
-    "202.015",
-    "hip hop, pop",
-    "0.559"
-  ],
-  [
-    "Nicky Jam",
-    "X",
-    "172854",
-    "2019",
-    "179.968",
-    "latin",
-    "0.749"
-  ],
-  [
-    "Post Malone",
-    "Goodbyes (Feat. Young Thug)",
-    "174960",
-    "2019",
-    "150.231",
-    "hip hop",
-    "0.653"
-  ],
-  [
-    "Paulo Londra",
-    "Adan y Eva",
-    "256971",
-    "2019",
-    "171.993",
-    "hip hop, latin, Dance/Electronic",
-    "0.709"
-  ],
-  [
-    "Mabel",
-    "Don't Call Me Up",
-    "178480",
-    "2019",
-    "98.994",
-    "pop, Dance/Electronic",
-    "0.881"
-  ],
-  [
-    "Bad Bunny",
-    "Callaita",
-    "250533",
-    "2019",
-    "176.169",
-    "latin",
-    "0.624"
-  ],
-  [
-    "Taylor Swift",
-    "Cruel Summer",
-    "178426",
-    "2019",
-    "169.994",
-    "pop",
-    "0.702"
-  ],
-  [
-    "iann dior",
-    "emotions",
-    "131213",
-    "2019",
-    "80.512",
-    "hip hop, pop",
-    "0.63"
-  ],
-  [
-    "Flipp Dinero",
-    "Leave Me Alone",
-    "195637",
-    "2019",
-    "150.024",
-    "hip hop, pop",
-    "0.743"
-  ],
-  [
-    "Ed Sheeran",
-    "Take Me Back to London (feat. Stormzy)",
-    "189733",
-    "2019",
-    "138.058",
-    "pop",
-    "0.762"
-  ],
-  [
-    "Jonas Brothers",
-    "Only Human",
-    "183000",
-    "2019",
-    "94.01",
-    "pop",
-    "0.496"
-  ],
-  [
-    "DJ Snake",
-    "Taki Taki (feat. Selena Gomez, Ozuna & Cardi B)",
-    "212500",
-    "2019",
-    "95.881",
-    "hip hop, pop, Dance/Electronic",
-    "0.801"
-  ],
-  [
-    "Jonas Brothers",
-    "Sucker",
-    "181026",
-    "2019",
-    "137.958",
-    "pop",
-    "0.734"
-  ],
-  [
-    "K-Ci & JoJo",
-    "Crazy",
-    "262773",
-    "2019",
-    "116.097",
-    "pop, R&B",
-    "0.644"
-  ],
-  [
-    "Aaliyah",
-    "Rock The Boat",
-    "275026",
-    "2019",
-    "92.988",
-    "hip hop, pop, R&B",
-    "0.72"
-  ],
-  [
-    "Angie Martinez",
-    "If I Could Go! (feat. Lil' Mo & Sacario)",
-    "244466",
-    "2019",
-    "195.685",
-    "pop",
-    "0.643"
-  ],
-  [
-    "DaBaby",
-    "Suge",
-    "163320",
-    "2019",
-    "75.445",
-    "hip hop",
-    "0.662"
-  ],
-  [
-    "Daddy Yankee",
-    "Con Calma",
-    "193226",
-    "2019",
-    "93.989",
-    "latin",
-    "0.86"
-  ],
-  [
-    "Post Malone",
-    "Wow.",
-    "149546",
-    "2019",
-    "99.96",
-    "hip hop",
-    "0.539"
-  ],
-  [
-    "Lana Del Rey",
-    "Doin' Time",
-    "202192",
-    "2019",
-    "144.982",
-    "pop",
-    "0.559"
-  ],
-  [
-    "Normani",
-    "Motivation",
-    "193837",
-    "2019",
-    "170.918",
-    "pop, R&B",
-    "0.887"
-  ],
-  [
-    "Kehlani",
-    "Nights Like This (feat. Ty Dolla $ign)",
-    "201787",
-    "2019",
-    "146.163",
-    "hip hop, pop, R&B",
-    "0.725"
-  ],
-  [
-    "BLACKPINK",
-    "Kill This Love",
-    "189052",
-    "2019",
-    "131.98",
-    "pop",
-    "0.861"
-  ],
-  [
-    "Joel Corry",
-    "Sorry",
-    "188640",
-    "2019",
-    "125.002",
-    "pop, Dance/Electronic",
-    "0.79"
-  ],
-  [
-    "Sam Smith",
-    "How Do You Sleep?",
-    "202204",
-    "2019",
-    "110.567",
-    "pop",
-    "0.682"
-  ],
-  [
-    "Blanco Brown",
-    "The Git Up",
-    "200593",
-    "2019",
-    "97.984",
-    "hip hop, country",
-    "0.678"
-  ],
-  [
-    "MEDUZA",
-    "Piece Of Your Heart",
-    "152913",
-    "2019",
-    "124.08",
-    "pop, Dance/Electronic",
-    "0.744"
-  ],
-  [
-    "Lil' Kim",
-    "Magic Stick",
-    "359973",
-    "2019",
-    "92.98",
-    "hip hop, pop, R&B",
-    "0.498"
-  ],
-  [
-    "5 Seconds of Summer",
-    "Easier",
-    "157492",
-    "2019",
-    "175.813",
-    "pop",
-    "0.428"
-  ],
-  [
-    "Liberty X",
-    "Just A Little",
-    "237359",
-    "2019",
-    "103.887",
-    "pop",
-    "0.614"
-  ],
-  [
-    "Sam Smith",
-    "Dancing With A Stranger (with Normani)",
-    "171029",
-    "2019",
-    "102.998",
-    "pop",
-    "0.52"
-  ],
-  [
-    "Drake",
-    "God's Plan",
-    "198973",
-    "2018",
-    "77.169",
-    "hip hop, pop, R&B",
-    "0.449"
-  ],
-  [
-    "Jay Rock",
-    "King's Dead (with Kendrick Lamar, Future & James Blake)",
-    "229670",
-    "2018",
-    "137.133",
-    "hip hop, pop",
-    "0.705"
-  ],
-  [
-    "Rae Sremmurd",
-    "Powerglide (feat. Juicy J) - From SR3MM",
-    "332300",
-    "2018",
-    "173.948",
-    "hip hop, pop",
-    "0.831"
-  ],
-  [
-    "Reik",
-    "Me Niego (feat. Ozuna & Wisin)",
-    "221653",
-    "2018",
-    "94.023",
-    "pop, latin",
-    "0.779"
-  ],
-  [
-    "Ava Max",
-    "Sweet but Psycho",
-    "187436",
-    "2018",
-    "133.002",
-    "pop",
-    "0.704"
-  ],
-  [
-    "YG",
-    "BIG BANK (feat. 2 Chainz, Big Sean, Nicki Minaj)",
-    "237240",
-    "2018",
-    "203.911",
-    "hip hop, pop",
-    "0.346"
-  ],
-  [
-    "The Weeknd",
-    "Call Out My Name",
-    "228373",
-    "2018",
-    "134.17",
-    "pop, R&B",
-    "0.593"
-  ],
-  [
-    "Lil Baby",
-    "Yes Indeed",
-    "142273",
-    "2018",
-    "119.957",
-    "hip hop",
-    "0.346"
-  ],
-  [
-    "Halsey",
-    "Without Me",
-    "201660",
-    "2018",
-    "136.041",
-    "pop, Dance/Electronic",
-    "0.488"
-  ]
+  {
+    "artist": "NSG",
+    "song": "Options",
+    "duration_ms": "240081",
+    "year": "2020",
+    "tempo": "101.993",
+    "genre": "World/Traditional, hip hop",
+    "energy": "0.621"
+  },
+  {
+    "artist": "Will Smith",
+    "song": "Switch",
+    "duration_ms": "197666",
+    "year": "2020",
+    "tempo": "102.516",
+    "genre": "hip hop, pop",
+    "energy": "0.9"
+  },
+  {
+    "artist": "Calvin Harris",
+    "song": "Giant (with Rag'n'Bone Man)",
+    "duration_ms": "229184",
+    "year": "2019",
+    "tempo": "122.015",
+    "genre": "hip hop, pop, Dance/Electronic",
+    "energy": "0.887"
+  },
+  {
+    "artist": "J. Cole",
+    "song": "MIDDLE CHILD",
+    "duration_ms": "213593",
+    "year": "2019",
+    "tempo": "123.984",
+    "genre": "hip hop",
+    "energy": "0.364"
+  },
+  {
+    "artist": "Lunay",
+    "song": "Soltera - Remix",
+    "duration_ms": "266086",
+    "year": "2019",
+    "tempo": "92.01",
+    "genre": "pop, latin",
+    "energy": "0.783"
+  },
+  {
+    "artist": "Ariana Grande",
+    "song": "boyfriend (with Social House)",
+    "duration_ms": "186106",
+    "year": "2019",
+    "tempo": "190.097",
+    "genre": "pop",
+    "energy": "0.795"
+  },
+  {
+    "artist": "Sigala",
+    "song": "Wish You Well",
+    "duration_ms": "205653",
+    "year": "2019",
+    "tempo": "124.975",
+    "genre": "pop, Dance/Electronic",
+    "energy": "0.895"
+  },
+  {
+    "artist": "Dua Lipa",
+    "song": "Don't Start Now",
+    "duration_ms": "183290",
+    "year": "2019",
+    "tempo": "123.941",
+    "genre": "pop",
+    "energy": "0.793"
+  },
+  {
+    "artist": "Young Thug",
+    "song": "The London (feat. J. Cole & Travis Scott)",
+    "duration_ms": "200106",
+    "year": "2019",
+    "tempo": "97.981",
+    "genre": "hip hop, pop",
+    "energy": "0.586"
+  },
+  {
+    "artist": "Sam Feldt",
+    "song": "Post Malone (feat. RANI)",
+    "duration_ms": "174444",
+    "year": "2019",
+    "tempo": "107.356",
+    "genre": "pop, Dance/Electronic",
+    "energy": "0.642"
+  },
+  {
+    "artist": "NLE Choppa",
+    "song": "Shotta Flow (feat. Blueface) [Remix]",
+    "duration_ms": "176631",
+    "year": "2019",
+    "tempo": "120.08",
+    "genre": "hip hop",
+    "energy": "0.511"
+  },
+  {
+    "artist": "Cardi B",
+    "song": "Please Me",
+    "duration_ms": "200889",
+    "year": "2019",
+    "tempo": "133.992",
+    "genre": "hip hop, pop",
+    "energy": "0.57"
+  },
+  {
+    "artist": "Post Malone",
+    "song": "Circles",
+    "duration_ms": "215280",
+    "year": "2019",
+    "tempo": "120.042",
+    "genre": "hip hop",
+    "energy": "0.762"
+  },
+  {
+    "artist": "Hayden James",
+    "song": "NUMB",
+    "duration_ms": "217296",
+    "year": "2019",
+    "tempo": "147.932",
+    "genre": "pop, Dance/Electronic",
+    "energy": "0.558"
+  },
+  {
+    "artist": "BTS",
+    "song": "Boy With Luv (feat. Halsey)",
+    "duration_ms": "229773",
+    "year": "2019",
+    "tempo": "119.991",
+    "genre": "pop",
+    "energy": "0.862"
+  },
+  {
+    "artist": "Lil Nas X",
+    "song": "Panini",
+    "duration_ms": "114893",
+    "year": "2019",
+    "tempo": "153.848",
+    "genre": "hip hop, pop",
+    "energy": "0.594"
+  },
+  {
+    "artist": "Dave",
+    "song": "Location (feat. Burna Boy)",
+    "duration_ms": "241293",
+    "year": "2019",
+    "tempo": "109.979",
+    "genre": "hip hop",
+    "energy": "0.496"
+  },
+  {
+    "artist": "Jax Jones",
+    "song": "All Day And Night",
+    "duration_ms": "169303",
+    "year": "2019",
+    "tempo": "121.908",
+    "genre": "hip hop, pop, Dance/Electronic",
+    "energy": "0.782"
+  },
+  {
+    "artist": "Anuel AA",
+    "song": "Secreto",
+    "duration_ms": "258800",
+    "year": "2019",
+    "tempo": "91.987",
+    "genre": "latin",
+    "energy": "0.803"
+  },
+  {
+    "artist": "Shawn Mendes",
+    "song": "Se\u00f1orita",
+    "duration_ms": "190799",
+    "year": "2019",
+    "tempo": "116.967",
+    "genre": "pop",
+    "energy": "0.548"
+  },
+  {
+    "artist": "Lil Nas X",
+    "song": "Old Town Road",
+    "duration_ms": "113000",
+    "year": "2019",
+    "tempo": "135.998",
+    "genre": "hip hop, pop",
+    "energy": "0.53"
+  },
+  {
+    "artist": "Ed Sheeran",
+    "song": "Antisocial (with Travis Scott)",
+    "duration_ms": "161746",
+    "year": "2019",
+    "tempo": "151.957",
+    "genre": "pop",
+    "energy": "0.823"
+  },
+  {
+    "artist": "Mustard",
+    "song": "Pure Water (with Migos)",
+    "duration_ms": "192470",
+    "year": "2019",
+    "tempo": "202.015",
+    "genre": "hip hop, pop",
+    "energy": "0.559"
+  },
+  {
+    "artist": "Nicky Jam",
+    "song": "X",
+    "duration_ms": "172854",
+    "year": "2019",
+    "tempo": "179.968",
+    "genre": "latin",
+    "energy": "0.749"
+  },
+  {
+    "artist": "Post Malone",
+    "song": "Goodbyes (Feat. Young Thug)",
+    "duration_ms": "174960",
+    "year": "2019",
+    "tempo": "150.231",
+    "genre": "hip hop",
+    "energy": "0.653"
+  },
+  {
+    "artist": "Paulo Londra",
+    "song": "Adan y Eva",
+    "duration_ms": "256971",
+    "year": "2019",
+    "tempo": "171.993",
+    "genre": "hip hop, latin, Dance/Electronic",
+    "energy": "0.709"
+  },
+  {
+    "artist": "Mabel",
+    "song": "Don't Call Me Up",
+    "duration_ms": "178480",
+    "year": "2019",
+    "tempo": "98.994",
+    "genre": "pop, Dance/Electronic",
+    "energy": "0.881"
+  },
+  {
+    "artist": "Bad Bunny",
+    "song": "Callaita",
+    "duration_ms": "250533",
+    "year": "2019",
+    "tempo": "176.169",
+    "genre": "latin",
+    "energy": "0.624"
+  },
+  {
+    "artist": "Taylor Swift",
+    "song": "Cruel Summer",
+    "duration_ms": "178426",
+    "year": "2019",
+    "tempo": "169.994",
+    "genre": "pop",
+    "energy": "0.702"
+  },
+  {
+    "artist": "iann dior",
+    "song": "emotions",
+    "duration_ms": "131213",
+    "year": "2019",
+    "tempo": "80.512",
+    "genre": "hip hop, pop",
+    "energy": "0.63"
+  },
+  {
+    "artist": "Flipp Dinero",
+    "song": "Leave Me Alone",
+    "duration_ms": "195637",
+    "year": "2019",
+    "tempo": "150.024",
+    "genre": "hip hop, pop",
+    "energy": "0.743"
+  },
+  {
+    "artist": "Ed Sheeran",
+    "song": "Take Me Back to London (feat. Stormzy)",
+    "duration_ms": "189733",
+    "year": "2019",
+    "tempo": "138.058",
+    "genre": "pop",
+    "energy": "0.762"
+  },
+  {
+    "artist": "Jonas Brothers",
+    "song": "Only Human",
+    "duration_ms": "183000",
+    "year": "2019",
+    "tempo": "94.01",
+    "genre": "pop",
+    "energy": "0.496"
+  },
+  {
+    "artist": "DJ Snake",
+    "song": "Taki Taki (feat. Selena Gomez, Ozuna & Cardi B)",
+    "duration_ms": "212500",
+    "year": "2019",
+    "tempo": "95.881",
+    "genre": "hip hop, pop, Dance/Electronic",
+    "energy": "0.801"
+  },
+  {
+    "artist": "Jonas Brothers",
+    "song": "Sucker",
+    "duration_ms": "181026",
+    "year": "2019",
+    "tempo": "137.958",
+    "genre": "pop",
+    "energy": "0.734"
+  },
+  {
+    "artist": "K-Ci & JoJo",
+    "song": "Crazy",
+    "duration_ms": "262773",
+    "year": "2019",
+    "tempo": "116.097",
+    "genre": "pop, R&B",
+    "energy": "0.644"
+  },
+  {
+    "artist": "Aaliyah",
+    "song": "Rock The Boat",
+    "duration_ms": "275026",
+    "year": "2019",
+    "tempo": "92.988",
+    "genre": "hip hop, pop, R&B",
+    "energy": "0.72"
+  },
+  {
+    "artist": "Angie Martinez",
+    "song": "If I Could Go! (feat. Lil' Mo & Sacario)",
+    "duration_ms": "244466",
+    "year": "2019",
+    "tempo": "195.685",
+    "genre": "pop",
+    "energy": "0.643"
+  },
+  {
+    "artist": "DaBaby",
+    "song": "Suge",
+    "duration_ms": "163320",
+    "year": "2019",
+    "tempo": "75.445",
+    "genre": "hip hop",
+    "energy": "0.662"
+  },
+  {
+    "artist": "Daddy Yankee",
+    "song": "Con Calma",
+    "duration_ms": "193226",
+    "year": "2019",
+    "tempo": "93.989",
+    "genre": "latin",
+    "energy": "0.86"
+  },
+  {
+    "artist": "Post Malone",
+    "song": "Wow.",
+    "duration_ms": "149546",
+    "year": "2019",
+    "tempo": "99.96",
+    "genre": "hip hop",
+    "energy": "0.539"
+  },
+  {
+    "artist": "Lana Del Rey",
+    "song": "Doin' Time",
+    "duration_ms": "202192",
+    "year": "2019",
+    "tempo": "144.982",
+    "genre": "pop",
+    "energy": "0.559"
+  },
+  {
+    "artist": "Normani",
+    "song": "Motivation",
+    "duration_ms": "193837",
+    "year": "2019",
+    "tempo": "170.918",
+    "genre": "pop, R&B",
+    "energy": "0.887"
+  },
+  {
+    "artist": "Kehlani",
+    "song": "Nights Like This (feat. Ty Dolla $ign)",
+    "duration_ms": "201787",
+    "year": "2019",
+    "tempo": "146.163",
+    "genre": "hip hop, pop, R&B",
+    "energy": "0.725"
+  },
+  {
+    "artist": "BLACKPINK",
+    "song": "Kill This Love",
+    "duration_ms": "189052",
+    "year": "2019",
+    "tempo": "131.98",
+    "genre": "pop",
+    "energy": "0.861"
+  },
+  {
+    "artist": "Joel Corry",
+    "song": "Sorry",
+    "duration_ms": "188640",
+    "year": "2019",
+    "tempo": "125.002",
+    "genre": "pop, Dance/Electronic",
+    "energy": "0.79"
+  },
+  {
+    "artist": "Sam Smith",
+    "song": "How Do You Sleep?",
+    "duration_ms": "202204",
+    "year": "2019",
+    "tempo": "110.567",
+    "genre": "pop",
+    "energy": "0.682"
+  },
+  {
+    "artist": "Blanco Brown",
+    "song": "The Git Up",
+    "duration_ms": "200593",
+    "year": "2019",
+    "tempo": "97.984",
+    "genre": "hip hop, country",
+    "energy": "0.678"
+  },
+  {
+    "artist": "MEDUZA",
+    "song": "Piece Of Your Heart",
+    "duration_ms": "152913",
+    "year": "2019",
+    "tempo": "124.08",
+    "genre": "pop, Dance/Electronic",
+    "energy": "0.744"
+  },
+  {
+    "artist": "Lil' Kim",
+    "song": "Magic Stick",
+    "duration_ms": "359973",
+    "year": "2019",
+    "tempo": "92.98",
+    "genre": "hip hop, pop, R&B",
+    "energy": "0.498"
+  },
+  {
+    "artist": "5 Seconds of Summer",
+    "song": "Easier",
+    "duration_ms": "157492",
+    "year": "2019",
+    "tempo": "175.813",
+    "genre": "pop",
+    "energy": "0.428"
+  },
+  {
+    "artist": "Liberty X",
+    "song": "Just A Little",
+    "duration_ms": "237359",
+    "year": "2019",
+    "tempo": "103.887",
+    "genre": "pop",
+    "energy": "0.614"
+  },
+  {
+    "artist": "Sam Smith",
+    "song": "Dancing With A Stranger (with Normani)",
+    "duration_ms": "171029",
+    "year": "2019",
+    "tempo": "102.998",
+    "genre": "pop",
+    "energy": "0.52"
+  },
+  {
+    "artist": "Drake",
+    "song": "God's Plan",
+    "duration_ms": "198973",
+    "year": "2018",
+    "tempo": "77.169",
+    "genre": "hip hop, pop, R&B",
+    "energy": "0.449"
+  },
+  {
+    "artist": "Jay Rock",
+    "song": "King's Dead (with Kendrick Lamar, Future & James Blake)",
+    "duration_ms": "229670",
+    "year": "2018",
+    "tempo": "137.133",
+    "genre": "hip hop, pop",
+    "energy": "0.705"
+  },
+  {
+    "artist": "Rae Sremmurd",
+    "song": "Powerglide (feat. Juicy J) - From SR3MM",
+    "duration_ms": "332300",
+    "year": "2018",
+    "tempo": "173.948",
+    "genre": "hip hop, pop",
+    "energy": "0.831"
+  },
+  {
+    "artist": "Reik",
+    "song": "Me Niego (feat. Ozuna & Wisin)",
+    "duration_ms": "221653",
+    "year": "2018",
+    "tempo": "94.023",
+    "genre": "pop, latin",
+    "energy": "0.779"
+  },
+  {
+    "artist": "Ava Max",
+    "song": "Sweet but Psycho",
+    "duration_ms": "187436",
+    "year": "2018",
+    "tempo": "133.002",
+    "genre": "pop",
+    "energy": "0.704"
+  },
+  {
+    "artist": "YG",
+    "song": "BIG BANK (feat. 2 Chainz, Big Sean, Nicki Minaj)",
+    "duration_ms": "237240",
+    "year": "2018",
+    "tempo": "203.911",
+    "genre": "hip hop, pop",
+    "energy": "0.346"
+  },
+  {
+    "artist": "The Weeknd",
+    "song": "Call Out My Name",
+    "duration_ms": "228373",
+    "year": "2018",
+    "tempo": "134.17",
+    "genre": "pop, R&B",
+    "energy": "0.593"
+  },
+  {
+    "artist": "Lil Baby",
+    "song": "Yes Indeed",
+    "duration_ms": "142273",
+    "year": "2018",
+    "tempo": "119.957",
+    "genre": "hip hop",
+    "energy": "0.346"
+  },
+  {
+    "artist": "Halsey",
+    "song": "Without Me",
+    "duration_ms": "201660",
+    "year": "2018",
+    "tempo": "136.041",
+    "genre": "pop, Dance/Electronic",
+    "energy": "0.488"
+  }
 ]
