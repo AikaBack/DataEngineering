@@ -1,0 +1,52 @@
+[
+  {
+    "user_id": 5,
+    "user_name": "Chelsey Dietrich",
+    "post_count": 11
+  },
+  {
+    "user_id": 10,
+    "user_name": "Clementina DuBuque",
+    "post_count": 10
+  },
+  {
+    "user_id": 3,
+    "user_name": "Clementine Bauch",
+    "post_count": 11
+  },
+  {
+    "user_id": 2,
+    "user_name": "Ervin Howell",
+    "post_count": 11
+  },
+  {
+    "user_id": 9,
+    "user_name": "Glenna Reichert",
+    "post_count": 8
+  },
+  {
+    "user_id": 7,
+    "user_name": "Kurtis Weissnat",
+    "post_count": 8
+  },
+  {
+    "user_id": 1,
+    "user_name": "Leanne Graham",
+    "post_count": 10
+  },
+  {
+    "user_id": 6,
+    "user_name": "Mrs. Dennis Schulist",
+    "post_count": 9
+  },
+  {
+    "user_id": 8,
+    "user_name": "Nicholas Runolfsdottir V",
+    "post_count": 12
+  },
+  {
+    "user_id": 4,
+    "user_name": "Patricia Lebsack",
+    "post_count": 10
+  }
+]
