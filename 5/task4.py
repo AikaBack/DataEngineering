@@ -15,18 +15,18 @@ db = client['Books']
 collection = db['BooksList']
 
 # Загрузка данных из CSV
-with open('task_3_csv_books.csv', 'r', encoding='utf-8') as csv_file:
+with open('task_4_csv_books.csv', 'r', encoding='utf-8') as csv_file:
     csv_reader = csv.DictReader(csv_file)
     csv_data = [dict(row) for row in csv_reader]
     collection.insert_many(csv_data)
 
 # Загрузка данных из Pickle
-with open('task_3_pkl_books.pkl', 'rb') as pkl_file:
+with open('task_4_pkl_books.pkl', 'rb') as pkl_file:
     pkl_data = pickle.load(pkl_file)
     collection.insert_many(pkl_data)
 
 # Загрузка данных из MessagePack
-with open('task_3_msgpack_books.msgpack', 'rb') as msgpack_file:
+with open('task_4_msgpack_books.msgpack', 'rb') as msgpack_file:
     packed_data = msgpack_file.read()
     msgpack_data = msgpack.unpackb(packed_data, raw=False)
     collection.insert_many(msgpack_data)
